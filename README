@@ -1,0 +1,13 @@
+The Antikythera Simulation android app is an interactive 3D simulation drawn with OpenGLES of the 2 best known models of the Antikythera Mechanism as developed by scientists, and in the same time a showcase of the capabilities of your android powered handset!
+These versions are preliminary ones, without much attention to the relative gear diameters or vertical positions.
+
+This android app is actually a port to Java of a C project with a few minor corrections and additions added in the way. It was developed using the Eclipse IDE under Ubuntu.
+You may find the original C project in the link below. It will run on any Windows machine and via Wine on Linux.
+http://www.etl.uom.gr/mr/index.php?mypage=antikythera_sim
+The C project is not yet open-sourced but it will become available sometime.
+
+The source code is published free of licenses, so you may use the code freely and for any cause you wish. Using a reference to the original source is encouraged and appreciated. Feel free to fork the program and make it even better. I will gladly commit good patches and acknowledge the contributors.
+
+Thanks for visiting.
+
+fivasim@gmail.com

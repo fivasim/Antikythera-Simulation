@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/fragmenta">
+ 	<LinearLayout android:orientation="vertical"
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent"
+	  android:gravity="center"
+	  android:layout_weight="0.25">
+		<Button android:text="Price's model (1974)" 
+			android:id="@+id/Button01" 
+			android:layout_width="wrap_content" 
+			android:layout_height="fill_parent"
+			android:layout_marginLeft="0sp"
+			android:background="@android:color/transparent"
+			android:focusable="false"
+			android:textSize="18sp"
+			android:textColor="@drawable/transparent_button"></Button>
+	</LinearLayout>
+	<LinearLayout android:orientation="vertical"
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent"
+	  android:gravity="center"
+	  android:layout_weight="0.25">
+		<Button android:text="AMRP model (2005)" 
+			android:id="@+id/Button02" 
+			android:layout_width="wrap_content" 
+			android:layout_height="fill_parent"
+			android:background="@android:color/transparent"
+			android:focusable="false"
+			android:textSize="18sp"
+			android:textColor="@drawable/transparent_button"></Button>
+	</LinearLayout>
+	<LinearLayout android:orientation="vertical"
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent"
+	  android:gravity="center"
+	  android:layout_weight="0.25">
+		<Button android:text="Preferences" 
+			android:id="@+id/Button03" 
+			android:layout_width="wrap_content" 
+			android:layout_height="fill_parent"
+			android:layout_marginRight="0sp"
+			android:background="@android:color/transparent"
+			android:focusable="false"
+			android:textSize="18sp"
+			android:textColor="@drawable/transparent_button"></Button>
+	</LinearLayout>
+	<LinearLayout android:orientation="horizontal"
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent"
+	  android:gravity="center"
+	  android:layout_weight="0.25">
+	  <LinearLayout android:orientation="horizontal"
+		  android:layout_width="fill_parent"
+		  android:layout_height="fill_parent"
+		  android:gravity="center"
+		  android:layout_weight="0.5">
+			<Button android:text="Help" 
+				android:id="@+id/Button04" 
+				android:layout_width="wrap_content"  
+				android:layout_height="fill_parent"
+				android:background="@android:color/transparent"
+				android:focusable="false"
+				android:textSize="18sp"
+				android:textColor="@drawable/transparent_button"></Button>
+		</LinearLayout>
+		<LinearLayout android:orientation="horizontal"
+		  android:layout_width="fill_parent"
+		  android:layout_height="fill_parent"
+		  android:gravity="center"
+		  android:layout_weight="0.5">
+			<Button android:text="About" 
+				android:id="@+id/Button05" 
+				android:layout_width="wrap_content"  
+				android:layout_height="fill_parent"
+				android:background="@android:color/transparent"
+				android:focusable="false"
+				android:textSize="18sp"
+				android:textColor="@drawable/transparent_button"></Button>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

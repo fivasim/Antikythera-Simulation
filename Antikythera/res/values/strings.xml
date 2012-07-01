@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, antikythera!</string>
+    <string name="app_name">Antikythera Simulation</string>
+    <string name="about_title">
+    	<b>Antikythera Mechanism 3D Simulation</b>
+    </string>
+    <string name="about_text1">
+    	The extraordinary \"Antikythera Mechanism\" is the oldest known complex scientific calculator,
+    	and it was built in Ancient Greece. 
+    	Although it was built around 150-100BC it\'s degree of mechanical sophistication is 
+    	comparable to a 19th century Swiss clock.
+    	It was discovered in 1900 an  ancient mechanism was found by sponge divers at 
+    	the bottom of the sea near the island of Antikythera. Though it\'s complexity was not yet 
+    	acknowledged it astonished the whole international community of experts on the ancient world.
+    </string>
+    <string name="about_text3">
+    	This app is a 3D simulation of the 2 best known models, using OpenGLES 1.0 for 3D modelling.
+		Discover the 3D capabilities of OpenGLES on Android smartphones.
+    </string>
+    <string name="about_text4">
+    	- The model of Brittish science historian Derek De Solla Price:
+    	In 1974 and after 23 years of research he published a model of how the mechanism 
+    	could have functioned. 
+    </string>
+    <string name="about_text5">
+    	-  The model of Antikythera Mechanism Research Project (AMRP):
+    	A joint program between Cardiff University (M. Edmunds, T. Freeth), the National and 
+    	Kapodistrian University of Athens (X. Moussas, Y. Bitsakis), the Aristotle University of 
+    	Thessaloniki (J.H. Seiradakis), the National Archaeological Museum of Athens, X-Tek Systems UK[47] 
+    	and Hewlett-Packard USA, funded by the Leverhulme Trust and supported by the 
+    	Cultural Foundation of the National Bank of Greece. 
+    </string>
+    <string name="about_text6">
+    	These versions are preliminary ones, without much attention to the relative gear 
+    	diameters or vertical positions. However, the tooth count of the gears and the operation are 
+    	accurate.
+    </string>
+    <string name="about_text7">
+    	Rotate the mechanism, pinch zoom in and out and do lots of fun stuff to this high quality
+    	3D model.
+    </string>
+    <string name="controls_text">
+    	<b>Controls</b>
+    </string>
+    <string name="controls_text1">    
+    	Touch screen to rotate or pan (see \"preferences\"). Trackball and touchpad are supported.
+    </string>
+    <string name="controls_text2">    
+    	Pinch with two fingers to zoom in / zoom out, or use the VolUp / VolDown keys. 
+    	(Multi-touch not supported on certain devices)
+    </string>
+    <string name="controls_text3">    
+    	Toggle touch input to cause rotation or panning of the model by tapping the appropriate button in the bottom right of the screen (or by clicking the trackball, 
+    	DPAD center, or the camera button).
+    </string>
+    <string name="controls_text4">	
+    	Click MENU to show the Preference screen at any time.
+    </string>
+    <string name="about_text8">
+    	<b>Have fun!</b>
+    </string>
+    <string name="about_text9">    
+    	For reporting bugs or making suggestions please contact me at fivasim@gmail.com
+    	Thank you!\n\n\n
+    	The Antikythera Simulation is an open source project created by Fiv Asim. The sources can be found at github:\n
+    	https://github.com/fivasim/Antikythera-Simulation\n\n\n 
+    </string>
+    <string name="about_text10">
+    	<b>Enjoy!</b>
+    </string>
+    <string name="about_text11">
+    	<b>How did it work?</b>
+    </string>
+    <string name="about_text2">
+    	110 years of research and still we are not fully aware of the Antikythera Mechanism functionality, 
+    	although we now know that it was used for astronomical measurements with extreme complexity and precision.
+    	It is also possible that it was used for navigational purposes as well.
+    	Functionality is summarized below. 
+    </string>
+    <string name="about_text12">
+    	On the side of the mechanism there is a handle which the user turns to set the mechanism in motion. 
+    	Via the gears the motion is transferred to the pointers in the front and back faces of the mechanism.
+    	On the front side the long pointer indicates the position of the sun, and the short one is about the moon.\n
+    	The readings on the front side indicate the greek names of the signs of the zodiac circle (the constellations along the ecliptic-
+    	the apparent movement of the sun on the sky), and the egyptian names of the months, but written in greek letters.
+    	The ancient greeks used to calculate years according to the sun and months according to the moon.
+    	In the back side there are three dials on this simulation but probably more existed in the real thing.    	
+    	Those dials are calculating the Metonian period (6949 days) which is the smallest time period containing an 
+    	non-decimal number of moon months and sun years, the Callipic period which equals four Metonian periods and 
+    	the Saros period which combined to the two periods mentioned before could help predict a solar or lunar eclipse.
+    	Movement of planets visible with the naked eye is also speculated to have existed.\n
+    	Also, it might have been used for navigation since its precision allowed the user to determine the difference 
+    	in the readings compared to the actual vision of the sky, thus showing if there is any difference between the 
+    	users speculative position and his actual position.\n
+    	Last but not least, a full instruction text was written all over the container of the mechanism, 
+    	a \"user manual\" making it usable by an average person (average meaning not a scientist) and
+    	it most certainly was a highly mobile device, used for precise and sophisticated calendar-like calculations.
+    	Much of the Mechanism\'s mysteries still await to be brought to light...
+    </string>
+    <string name="version">
+    	<b>Antikythera Simulation v0.97</b>
+    </string>
+</resources>

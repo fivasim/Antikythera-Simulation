@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	 <PreferenceCategory android:title="Preferences">
+	    <ListPreference android:key="rotation_speed"
+	        android:title="Speed" 
+	        android:summary="Rotation speed for the gears."
+	        android:defaultValue="0.5"
+	        android:entryValues="@array/rotation_speed"
+			android:entries="@array/rotation_speed_titles" />
+		<CheckBoxPreference android:key="rotate_backwards"
+	        android:title="Rotate Backwards" 
+	        android:summary="Invert rotation"
+	        android:defaultValue="false" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="Controls">
+		<CheckBoxPreference android:key="trackball_rotate"
+	        android:title="Touchscreen Panning" 
+	        android:summary="Check this to use touchscreen for pan and trackball (if any) for rotation. 
+	        				Otherwise touch move is used for rotation and trackball for panning."
+	        android:defaultValue="false" />
+		<CheckBoxPreference android:key="hidemoverotate"
+	        android:title="Hide Pan/Rotate button" 
+	        android:defaultValue="false" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="Display">
+		<CheckBoxPreference android:key="plate_visibility"
+	        android:title="Plate Visibility" 
+	        android:summary="Draw front and back faces of the mechanism container"
+	        android:defaultValue="false" />
+		<CheckBoxPreference android:key="show_fps"
+	        android:title="Show Frames per Second" 
+	        android:summary="Check this to show fps in real time."
+	        android:defaultValue="false" />
+	</PreferenceCategory>
+</PreferenceScreen>

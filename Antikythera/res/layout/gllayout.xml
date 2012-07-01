@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <!-- Here is where we put the SurfaceView, in a frame so that we can
+         stack other views on top of it. -->
+    <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="1">
+        <android.opengl.GLSurfaceView android:id="@+id/glsurfaceview1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+		<TextView
+				android:id="@+id/tv" 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dip"
+				android:layout_gravity="right|top"
+				android:padding="10dip"
+				android:background="#AA000000"
+				android:textColor="#ffffffff"
+				android:text="ok" />
+		<ImageView
+		    	android:id="@+id/moveresize" 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dip"
+				android:layout_gravity="right|bottom"
+				android:src="@drawable/rotate"
+				android:padding="10dip"
+				/>
+    </FrameLayout>
+</LinearLayout>

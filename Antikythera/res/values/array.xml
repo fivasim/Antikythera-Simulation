@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="rotation_speed_titles">
+		<item>Paused</item>
+		<item>Slow</item>
+		<item>Normal</item>
+		<item>Fast</item>
+		<item>Very Fast</item>
+	</string-array>
+	<string-array name="rotation_speed">
+		<item>0.0</item>
+		<item>0.5</item>
+		<item>1.0</item>
+		<item>2.0</item>
+		<item>5.0</item>
+	</string-array>
+</resources>
